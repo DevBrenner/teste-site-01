@@ -4,6 +4,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #C6CACF;
     background-image: url(imagem/GettyImages-183766131-low.webp);
+    background-repeat: no-repeat;
+    
 }
 
 *{
@@ -29,7 +31,7 @@ main.principal{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 30px;
+    
     padding: 20px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
@@ -85,7 +87,6 @@ div#qimg{
     min-width: 300px;
     max-width: 1000px;
    margin-left: 60px;
-   padding-bottom: 10px;
    padding-top: 10px;
 }
 
@@ -96,9 +97,15 @@ div#q2{
     font-size: 20px;   
     border: #C6CACF;
     margin-left: 90px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    min-width: 300px;
+    max-width: 1000px;
     
+}
+
+#q2 > p{
+    color: goldenrod;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 h3{
