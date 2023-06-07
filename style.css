@@ -5,7 +5,8 @@ body{
     background-color: #C6CACF;
     background-image: url(imagem/GettyImages-183766131-low.webp);
     background-repeat: no-repeat;
-    
+    height: 100vh;
+    background-size: 100% 100%;
 }
 
 *{
@@ -72,11 +73,9 @@ h2{
 }
 
 div{
-    min-width: 300px;
-    max-width: 1000px;
+    
     border: 2px solid black;
-    width: 500px;
-    height: 380px;
+    height: 100vh;
     border-radius: 10px;
     display: inline-block;
     margin-top: 5px;
@@ -84,10 +83,9 @@ div{
 
 div#qimg{
     
-    min-width: 300px;
-    max-width: 1000px;
+    
    margin-left: 60px;
-   padding-top: 10px;
+   
 }
 
 img{
